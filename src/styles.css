@@ -27,10 +27,18 @@
     margin-bottom: 1rem;
 }
 
+.hero p:nth-child(3) {
+    font-size: 0.7rem;
+}
+
 .cloud {
     font-size: 0.8rem;
     font-weight: bold;
     margin-top: 1rem;
+}
+
+.buttons {
+    display: flex;
 }
 
 /* footer */
