@@ -1,3 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* header */
+
 /* hero */
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.highlight {
+    color: silver;
+}
+
+.hero p:nth-child(2) {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero p:nth-child(3) {
+    font-size: 0.7rem;
+}
+
+.cloud {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.buttons {
+    display: flex;
+}
+
 /* footer */
