@@ -7,17 +7,15 @@
         <title>Document</title>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
-    <body class="p-4 border-2 border-red-500 flex">
+    <body class="p-4">
         <header></header>
-        <main>
-            <div class="hero border-2 border-red-500">
+        <main class="flex">
+            <div class="hero">
                 <h1 class="text-[4rem] leading-none">
                     Beyond Trends <br />
                     Beyond <span class="highlight text-zinc-300">Time</span>
                 </h1>
-                <p
-                    class="border-2 border-red-500 text-[0.8rem] mt-6 mb-2 font-bold"
-                >
+                <p class="text-[0.8rem] mt-6 mb-4 font-bold">
                     BEYOND THE CURVE, AHEAD OF THE DESIGN
                 </p>
                 <p class="text-[0.7rem] w-sm text-justify">
@@ -27,12 +25,10 @@
                     quisquam labore, repellat molestias voluptatibus perferendis
                     amet nihil.
                 </p>
-                <p
-                    class="cloud class=border-2 border-red-500 text-[0.8rem] mt-2 mb-2 font-bold"
-                >
+                <p class="cloud text-[0.8rem] mt-4 mb-2 font-bold">
                     CLOUD COMPUTING
                 </p>
-                <div class="buttons mt-6 mb-8 flex">
+                <div class="buttons mt-10 mb-8 flex">
                     <div class="button-1">
                         <a
                             href="#login"
@@ -48,14 +44,15 @@
                         >
                     </div>
                 </div>
-                <div class="picture">
-                    <img
-                        src="tech-pic.png"
-                        alt="Tech Picture"
-                        width="300"
-                        height="auto"
-                    />
-                </div>
+            </div>
+            <div class="picture flex items-center ml-10">
+                <img
+                    src="tech-pic.png"
+                    alt="Tech Picture"
+                    width="400"
+                    height="auto"
+                    class="rounded-lg"
+                />
             </div>
         </main>
         <footer></footer>
